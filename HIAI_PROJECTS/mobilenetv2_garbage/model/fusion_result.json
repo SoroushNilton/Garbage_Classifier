@@ -1,0 +1,32 @@
+{
+    "graphId": "0",
+    "graph_fusion": {
+        "ConvBatchnormFusionPass": {
+            "effect_times": "52",
+            "match_times": "52"
+        },
+        "ConvToFullyConnectionFusionPass": {
+            "effect_times": "0",
+            "match_times": "52"
+        },
+        "ConvWeightCompressFusionPass": {
+            "effect_times": "0",
+            "match_times": "53"
+        },
+        "MatMulBiasAddFusionPass": {
+            "effect_times": "1",
+            "match_times": "1"
+        },
+        "TBEConvAddFusion": {
+            "effect_times": "5",
+            "match_times": "10"
+        }
+    },
+    "sessionId": "0",
+    "ub_fusion": {
+        "TbeCommonRules0FusionPass": {
+            "effect_times": "45",
+            "match_times": "45"
+        }
+    }
+}

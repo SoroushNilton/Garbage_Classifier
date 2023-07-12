@@ -1,0 +1,48 @@
+{
+    "graphId": "0",
+    "graph_fusion": {
+        "ConvConcatFusionPass": {
+            "effect_times": "9",
+            "match_times": "9"
+        },
+        "ConvToFullyConnectionFusionPass": {
+            "effect_times": "0",
+            "match_times": "57"
+        },
+        "ConvWeightCompressFusionPass": {
+            "effect_times": "0",
+            "match_times": "58"
+        },
+        "PoolingFusionPass": {
+            "effect_times": "0",
+            "match_times": "14"
+        },
+        "SoftmaxFusionPass": {
+            "effect_times": "0",
+            "match_times": "1"
+        },
+        "SplitConvConcatFusionPass": {
+            "effect_times": "0",
+            "match_times": "9"
+        },
+        "StrideHoistingPass": {
+            "effect_times": "0",
+            "match_times": "57"
+        },
+        "ZConcatDFusionPass": {
+            "effect_times": "0",
+            "match_times": "9"
+        },
+        "softmaxTransFusionPass": {
+            "effect_times": "0",
+            "match_times": "1"
+        }
+    },
+    "sessionId": "0",
+    "ub_fusion": {
+        "TbeCommonRules0FusionPass": {
+            "effect_times": "57",
+            "match_times": "57"
+        }
+    }
+}
